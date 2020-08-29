@@ -1,0 +1,100 @@
+@font-face {
+    src: url('../OpenSans-Regular.ttf');
+    src: url('../OpenSans-Bold.ttf');
+    src: url('../OpenSans-ExtraBold.ttf');
+    font-family: "OpenSans";
+}
+
+body {
+margin: 0;
+background-color: #e0e0e0;
+}
+
+header {
+	display: flex;
+	margin: 0;
+	background-color: #000000;
+	opacity: 0.8;
+	height: 89px;
+	width: 1249px;
+}
+
+.site-menu > ul {
+	display: flex;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.site-menu {
+	line-height: 70px;
+	margin: 0;
+	padding-left: 400px;
+	list-style: none;
+
+}
+.site-menu li {
+	margin: 0;
+	padding: 0;
+	width: 90px;
+	height: 90px;
+}
+.site-menu li:hover {
+	background-color: #FF3F40;
+	color: #E0E0E0;
+}
+.site-menu a {
+	display: flex;
+	justify-content: center;
+	align-self: center;
+	color: #E0E0E0;
+	text-decoration: none;
+	text-align: center;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	padding: 0;
+	margin: 0;
+	height: 90;
+}
+
+.items-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.item {
+	padding: 10px;
+}
+.site-text {
+	width: 544px;
+}
+
+.site-header {
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 60px;
+	line-height: 72px;
+}
+
+.site-text {
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15.9953px;
+	line-height: 28px;
+}
+
+.site-button {
+	color: #ffffff;
+    display: inline-block;
+    background-color: #ff3f40;
+    width: 227px;
+    padding: 22px 0;
+    text-align: center;
+    text-decoration: none;
+}
+
